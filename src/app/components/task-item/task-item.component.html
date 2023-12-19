@@ -1,0 +1,9 @@
+<div class="item-container">
+    <h3>{{submission.task}}</h3>
+    <span [ngClass]="getStatusClass(submission.status)">{{submission.status}}</span>
+    <div class="description">
+        <p><span style="color: grey;"> From:</span> {{submission.from}}</p>
+        <p><span style="color: grey;"> To:</span> {{submission.to}}</p>
+        <p><span style="color: grey;"> Due Date:</span> <span style="color: red;"> {{submission.date}}</span></p>
+    </div>
+</div>

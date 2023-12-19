@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+h2 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    font: bold;
+    cursor: default;
+    padding-top: 1%;
+    padding-left: 3%;
+}
